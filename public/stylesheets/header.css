@@ -1,0 +1,31 @@
+header#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background: var(--gradient);
+    padding: 0px 80px;
+
+    h1.logo {
+        color: white;
+    }
+
+    nav#menu-nav {
+        display: flex;
+        gap: 50px;
+
+        a.link-nav {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 10px;
+            transition: 0.3s;
+            
+        }
+
+        a.link-nav:hover{
+            background: var(--morado-principal);
+        }
+    }
+}

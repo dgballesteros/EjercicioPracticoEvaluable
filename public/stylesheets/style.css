@@ -1,8 +1,25 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import "header.css";
+@import "theme.css";
+@import "main.css";
+
+body,html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
-a {
-  color: #00B7FF;
+footer#footer {
+  p {
+    margin: 0;
+    height: 10vh;
+    color: white;
+    background: var(--footer);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 }
+

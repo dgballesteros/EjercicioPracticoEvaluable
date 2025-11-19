@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header id="header">
+    <h1 class="logo">Mi Aplicacion</h1>
+    <nav id="menu-nav">
+      <a href="" class="link-nav">Inicio</a>
+      <a href="" class="link-nav">Servicios</a>
+      <a href="" class="link-nav">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section id="hero-section">
+      <div id="main-content-container">
+        <div class="col-1">
+          <h1>¡Bienvenido!</h1>
+          <p>Descubre todas las funcionalidades que tenemos preparadas para ti. Únete a nuestra comunidad y exmpieza a disfrutar de una experiencia única.</p>
+          <p>Accede a tu cuenta o regístrate en segundos para comenzar tu aventura con nosotros.</p>
+        </div>
+        <div class="col-2">
+          <div class="login ya-registrado">
+            <h1>Ya estoy registrado</h1>
+            <form action="">
+              <input class="namePassword" type="text" id="fname" name="fname" placeholder="Correo electrónico"><br>
+              <input class="namePassword" type="text" id="lname" name="lname" placeholder="Contraseña"><br>
+              <div class="form-buttons">
+                <input type="submit" value="Enviar" class="btn-enviar">
+                <input type="cancelar" value="Cancelar" class="btn-cancelar">
+              </div>
+            </form> 
+          </div>
+          <div class="login no-registrado">
+            <h1>No estoy registrado aún</h1>
+            <h3>Introduzca su correo electrónico para crear una cuenta.</h3>
+            <form action="">
+              <input class="namePassword" type="text" id="fname" name="fname" placeholder="Correo electrónico"><br>
+              <div class="form-buttons">
+                <input type="submit" value="Enviar" class="btn-enviar">
+                <input type="cancelar" value="Cancelar" class="btn-cancelar">
+              </div>
+            </form> 
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <p>By Francisco Romero, 2025</p>
+  </footer>
+</body>
 </html>
